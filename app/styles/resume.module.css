@@ -1,0 +1,85 @@
+/* Container for the entire resume content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: hwb(202 4% 29%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Each section of the resume (e.g., personal info, education, skills) */
+  .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section headings (e.g., "Skills", "Objective") */
+  .heading {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0070f3;
+    padding-bottom: 5px;
+  }
+  
+  /* Button to toggle the visibility of the Skills section */
+  .button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Unordered list style for skills and certificates */
+  .list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Styles for the personal information section (name, contact info) */
+  .section p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .section strong {
+    color: #333;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .heading {
+      font-size: 1.2em;
+    }
+  
+    .button {
+      padding: 8px 16px;
+      font-size: 0.9em;
+    }
+  
+    .list {
+      padding-left: 15px;
+    }
+  }
+  
